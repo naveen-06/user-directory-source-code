@@ -1,0 +1,53 @@
+.popup {
+  .overlay {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.1rem);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+  }
+
+  .modal {
+    background-color: white;
+    border-radius: 0.1rem;
+    padding: 1.5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+    min-width: 25vw;
+    text-align: center;
+    transition: all 1s;
+  }
+
+  .btn__container {
+    width: 150px;
+    margin: auto;
+  }
+
+  .check__icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 1.2rem auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .popup {
+    .modal {
+      width: 35vw;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup {
+    .modal {
+      width: 80vw;
+    }
+  }
+}

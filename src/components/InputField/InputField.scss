@@ -1,0 +1,15 @@
+@import "../../scss/variables.scss";
+
+.input__field {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  font-size: 0.9rem;
+  margin: 1.2rem auto;
+  padding: 0.5rem 0.2rem;
+  width: 100%;
+  outline: none;
+
+  &:focus {
+    border-bottom: solid 2px $color--one;
+  }
+}

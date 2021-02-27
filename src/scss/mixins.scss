@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+@mixin formContainer {
+  background-color: white;
+  border-radius: 0.1rem;
+  box-shadow: 0 0 3px 0 #ccc;
+  padding: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+@mixin errorMsg {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin link {
+  color: $color--four;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@mixin gotoDirection {
+  text-align: center;
+  font-size: 0.85rem;
+  color: $color--three;
+  margin: 0.6rem 0;
+}

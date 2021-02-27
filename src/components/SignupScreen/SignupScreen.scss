@@ -1,0 +1,29 @@
+@import "../../scss/variables.scss";
+@import "../../scss/mixins.scss";
+
+.signup {
+  @include formContainer;
+
+  .to__login {
+    @include gotoDirection;
+  }
+
+  .login__link {
+    @include link;
+  }
+
+  .error__msg {
+    @include errorMsg;
+  }
+
+  .btn__container {
+    margin: 1.2rem 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .signup {
+    width: 90vw;
+    margin: auto;
+  }
+}

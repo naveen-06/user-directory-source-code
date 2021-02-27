@@ -1,0 +1,62 @@
+@import "../../scss/variables.scss";
+
+.user {
+  width: 80vw;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 8% 23% 23% 23% 23%;
+  border-top: 1px solid $color--three;
+  border-left: 1px solid $color--three;
+  transition: all 1s;
+
+  &:last-child {
+    border-bottom: 1px solid $color--three;
+  }
+
+  .phone,
+  .city,
+  .state,
+  .idx {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-right: 1px solid $color--three;
+    font-size: 0.9rem;
+  }
+
+  .email {
+    align-self: center;
+    padding: 1rem;
+    width: 100%;
+    border-right: 1px solid $color--three;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: $color--four;
+  }
+
+  .city,
+  .state {
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .user {
+    width: 95vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .user {
+    .email,
+    .phone,
+    .city,
+    .state,
+    .idx {
+      font-size: 0.6rem;
+      padding: 0.5rem 0.1rem;
+    }
+  }
+}

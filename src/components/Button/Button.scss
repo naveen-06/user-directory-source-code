@@ -1,0 +1,13 @@
+@import "../../scss/variables.scss";
+
+.primary__btn {
+  background-color: $color--one;
+  border: none;
+  border-radius: 0.1rem;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+}

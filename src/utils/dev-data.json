@@ -1,0 +1,37 @@
+[
+  {
+    "email": "jonas@gmail.com",
+    "password": "111111",
+    "phone": 9876543210,
+    "city": "hydrabad",
+    "state": "telangana"
+  },
+  {
+    "email": "anna@gmail.com",
+    "password": "222222",
+    "phone": 9988772211,
+    "city": "bangalore",
+    "state": "karataka"
+  },
+  {
+    "email": "nick@yahoo.com",
+    "password": "333333",
+    "phone": 9997770000,
+    "city": "mumbai",
+    "state": "maharashtra"
+  },
+  {
+    "email": "adam@gmail.com",
+    "password": "444444",
+    "phone": 9999911111,
+    "city": "chennai",
+    "state": "tamil nadu"
+  },
+  {
+    "email": "max@hotmail.com",
+    "password": "555555",
+    "phone": 9876512340,
+    "city": "visakhapatnam",
+    "state": "andhra pradesh"
+  }
+]
