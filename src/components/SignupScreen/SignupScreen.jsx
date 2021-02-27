@@ -24,7 +24,9 @@ function Signup({ history, newUser, curUser }) {
   }
 
   function handleChange(e) {
-    const { name, value } = e.target;
+    let { name, value } = e.target;
+    
+    if (name === 'email') value = value.toLocaleLowerCase();
     
     setUserDetails(pstate => {
       return {
